@@ -1,0 +1,447 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: whitesmoke;
+}
+
+/*Nav Bar*/
+
+.headn{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 1.3rem 10%;
+  background:  rgba(17, 16, 16, 0.846);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.lig{
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.barn a{
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 500;
+  margin-left: 3.5rem;
+  transition: .5s;
+}
+
+.barn a.active{
+  background: orange;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+  transition: .5s;
+}
+
+.barn a.active:hover{
+  color: black;
+  background: white;
+  box-shadow: 1px 0px 4px;
+}
+
+.barn a:hover{
+  color: orange;
+  text-decoration-line: none;
+}
+
+.lig:hover{
+  color: white;
+  text-decoration-line: none;
+}
+
+
+
+.cons{
+  font-size: 2rem;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+/* end nav bar*/
+
+
+
+
+/*for upper slide nav*/
+
+
+
+  /*section one*/
+ 
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .title h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vmax;
+    border-bottom: 5px solid orange;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+
+  .boot{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .pall{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  
+  }
+
+  .pall h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vmax;
+    transform: scaleY(1.5);
+  }
+
+  .pall p{
+    font-size: 3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .magge{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+  
+  }
+  .magge img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .up{
+    display: flex;
+    justify-content: center;
+  }
+
+  .up h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vmax;
+    border-bottom: 5px solid orange;
+    border-radius: 10px;
+  }
+
+  /*section two*/
+
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .allcover{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 4px;
+  }
+
+  .centr{
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo{
+    position: relative;
+    width: 100%;
+    border-bottom: solid orange 6px;
+  }
+  .photo img{
+    width: 100%;
+    height: 180px;
+    transition: transform .2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .taner{
+    position: relative;
+    margin: 10px;
+  }
+
+  .taner a:hover{
+    text-decoration-line: none;
+  }
+
+
+  /*start footer*/
+  footer{
+    background: rgba(17, 16, 16, 0.846);
+    color: white;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+
+  .contact{
+    margin-top: 15px;
+  }
+
+  .center{
+    margin-top: 15px;
+  }
+
+  .follow{
+    margin-top: 15px;
+  }
+
+  .map{
+    margin-top: 20px;
+    font-size: 4vmin;
+  }
+
+  .follow ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact p{
+    font-size: 4vmin;
+    padding: 10px 0px;
+  }
+
+  .contact ul{
+    list-style: none;
+    font-size: 2.3vmin;
+  }
+
+  .center p{
+    font-size: 4vmin;
+    padding: 10px 0px;
+  }
+
+  .center ul{
+    list-style: none;
+    font-size: 2.3vmin;
+  }
+
+  .follow p{
+    font-size: 4vmin;
+    padding: 10px 0px;
+  }
+
+  .follow ul{
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    padding: 10px;
+  }
+
+  .copy span{
+    font-size: 2vmin;
+    color: black;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 850px){
+
+    .team-co{
+      flex-direction: column;
+    }
+
+    .boot{
+      flex-direction: column;
+    }
+
+    .user{
+      display: none;
+    }
+  
+    .centersec{
+      display: flex;
+      flex-direction: column;
+    }
+    .firstman{
+      display: flex;
+      margin: 20px 0px;
+    }
+      .checkbtn{
+          display: block;
+      }
+  
+      .map{
+        float: right;
+      }
+  
+      .photo a{
+        margin-left: 50px;
+      }
+  
+      .moon{
+        margin-right: 30px;
+      }
+     
+      .moon a{
+          display: none;
+      }
+  
+      .moon label{
+        display: flex;
+      }
+  
+      .twocont{
+        flex-direction: column;
+      }
+     
+      .nav ul li{
+          display: block;
+          padding: 10px;
+          border-bottom: 1px solid white;
+      }
+      #menuList{
+          position: absolute;
+          top: 66px;
+          width: 100%;
+          left: 0;
+          right: 0;
+          flex-direction: column;
+          text-align: center;
+          background:  rgba(17, 16, 16, 0.846);
+          display: none;
+      }
+  
+      .nav i:hover #menuList{
+          display: block;
+      }
+  
+  
+     .footer{
+      flex-direction: column;
+     }
+  
+     .follow{
+      margin-top: 70px;
+    }
+
+    .main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+  
+     
+  }
+  
+  
+  @media only screen and (max-width: 700px){
+    .cons{
+      display: inline-flex;
+    }
+  
+    .barn{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background: rgba(17, 16, 16, 0.846);
+      overflow: hidden;
+      transition: .5s;
+    }
+  
+    #check:checked~.barn{
+      height: 17.7rem;
+    }
+  
+  
+    .barn a{
+      display: block;
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+  
+    .cons #close-icon{
+      display: none;
+    }
+  
+    #check:checked~.cons #menu-icon{
+      display: none;
+    }
+  
+    #check:checked~.cons #close-icon{
+      display: block;
+    }
+  
+    .lig{
+      font-size: 1.5rem;
+    }
+  
+  
+  
+  }
+  
+  
+  @media only screen and (max-width: 450px){
+  
+  
+    
+  }
+
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+@media only screen and (max-width: 450px){
+
+
+  
+}
+
+

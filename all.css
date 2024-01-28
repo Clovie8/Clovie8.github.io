@@ -1,0 +1,93 @@
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: cover;
+}
+
+body, html{
+    overflow: hidden;
+  }
+
+  .head{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: rgba(0, 0, 0, 0.85);
+     height: 100vh;
+  }
+
+  .minner{
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .minner h1{
+    font-size: 4rem;
+    margin-bottom: 40px;
+    transform: scaleY(1.3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .minner p{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .butto{
+    display:flex ;
+    justify-content: center;
+  }
+
+  .butto a{
+    background: orange;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+
+  .butto a:hover{
+    background: white;
+    text-decoration-line: none;
+    box-shadow: 2px 0px 6px;
+    transition: .5s;
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .minner h1{
+        font-size: 3rem;
+      
+  }
+
+  .minner p{
+    font-size: 1rem;
+  }
+
+  video{
+    display: flex;
+    position: fixed;
+  }
+
+  }
+
+  @media only screen and (max-width: 450px){
+    .minner h1{
+        font-size: 2.5rem;
+    }
+
+    .minner p{
+        font-size: 0.5rem;
+      }
+  
+  
+    
+  }
